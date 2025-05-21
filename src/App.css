@@ -1,0 +1,23 @@
+#root {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+/* header {
+  background-color: var(--main-color);
+  color: white;
+  display: flex;
+  justify-content: center;
+} */
+
+body {
+  background-image: url("./assets/rock-body.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}

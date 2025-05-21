@@ -1,0 +1,33 @@
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.notfound-content {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+  background-color: #ffffff31;
+  color: white;
+}
+
+.img-not-found {
+  width: 40%;
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+.notfound-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.notfound-text {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}

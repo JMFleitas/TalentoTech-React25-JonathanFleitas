@@ -1,0 +1,184 @@
+:root {
+  --main-color: rgb(254, 254, 254);
+  --btn-color: #5fabf6;
+}
+
+nav {
+  background-color: #2f6c90;
+
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+a {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--btn-color);
+  text-decoration: none;
+}
+
+.btnCateg {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+.btnCateg:hover {
+  background-color: transparent;
+  color: var(--btn-color);
+}
+
+/*!Estilos personales*/
+
+/*todo: Main container*/
+
+.main-container {
+  display: flex;
+  flex-grow: 100;
+  min-height: 400px; /* Ajusta el valor según el alto mínimo que desees */
+}
+
+/*Todo: Contacto*/
+.form-contact input,
+textarea {
+  background-color: #fff;
+  width: 100%;
+  padding: 0.1rem;
+  color: #000000;
+}
+.form-contact label {
+  color: #dfdfdf;
+}
+.form-contact button {
+  background-color: var(--btn-color);
+  padding: 0.3rem 1rem;
+  margin-top: 0.6rem;
+}
+/*todo: Botones Productos*/
+
+.btnAdd,
+.btnRemove {
+  background-color: var(--btn-color);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-agregar {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem;
+  margin: 5px 0;
+}
+.btn-agregar:hover {
+  color: rgb(75, 233, 54);
+}
+
+.btn-vermas {
+  font-size: 1.1rem;
+}
+.btn-vermas:hover {
+  color: #5fabf6;
+}
+.contact-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: transparent;
+  color: white;
+}
+
+.contact-info {
+  background-color: #ffffff31;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.contact-info h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #0fffc4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-form {
+  background-color: #ffffff31;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.contact-map {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* !Estilos de bootstrap */
+
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-title-color: ;
+  --bs-card-subtitle-color: ;
+  --bs-card-border-width: 2px;
+  --bs-card-border-color: #333;
+  --bs-card-border-radius: var(--bs-border-radius);
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: calc(var(--bs-border-radius) - 2px);
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: #cd1e1e00;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  color: rgb(244, 244, 244);
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+}
+.card-title {
+  margin-bottom: var(--bs-card-title-spacer-y);
+  color: #fff;
+}
+
+/* !Carrito */
+
+/*todo: offcanvas */
+.offcanvas-body * {
+  font-size: 1.2rem;
+  color: #fff;
+  text-shadow: #000000 2px 2px 5px;
+}
